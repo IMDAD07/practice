@@ -1,0 +1,320 @@
+body
+{
+display: flex;
+background-color: rgb(58, 207, 212);
+}
+.ch
+{
+    position: relative;
+    display: flex;
+    height: 70px;
+    width: 500px;
+    background:rgb(214, 86, 231);
+    border-radius: 10px;
+   left:30%;
+   top:40px;
+   align-items: center;
+   animation: anime1 10s linear infinite;
+}
+@keyframes anime1
+{
+    0%
+    {
+        background-color: aquamarine;
+        box-shadow: 0px 0px 40px 20px aquamarine;
+    }
+    10%
+    {
+        background-color: blue;
+        box-shadow: 0px 0px 40px 20px blue;
+    } 
+    20%
+    {
+        background-color: chartreuse;
+        box-shadow: 0px 0px 40px 20px chartreuse;
+    } 
+    30%
+    {
+        background-color: darkgoldenrod;
+        box-shadow: 0px 0px 40px 20px darkgoldenrod;
+        
+    }
+     40%
+    {
+        background-color: darkred;
+        box-shadow: 0px 0px 40px 20px darkred;
+    } 
+    50%
+    {
+        background-color: deepskyblue;
+        box-shadow: 0px 0px 40px  20px deepskyblue;
+    }
+     60%
+    {
+        background-color: greenyellow;
+        box-shadow: 0px 0px 40px 20px greenyellow;
+    } 
+    70%
+    {
+      background-color: hotpink;
+      box-shadow: 0px 0px 40px 20px  hotpink;
+    }
+    80%
+    {
+        background-color: lightsalmon;
+        box-shadow: 0px 0px 40px 20px lightsalmon;
+    }
+    90%
+    {
+        background-color: navy;
+        box-shadow: 0px 0px 40px 20px navy;
+    }
+    100%
+    {
+        background-color: orange;
+        box-shadow: 0px 0px 40px 20px orange;
+    }
+}
+#cht
+{
+    position: relative;
+    display:flex;
+    font-size: 30px;
+    left: 28%;
+}
+.marvel
+{
+    position: relative;
+    display: flex;
+    top:180px;
+    left: -100px;
+    height: 250px;
+    width: 250px;
+    background-color:yellow;
+    overflow: hidden;
+    -webkit-box-reflect: below 3px linear-gradient(transparent, #0004);
+}
+.marvel:hover
+{
+    background-color: red;
+    box-shadow: 0px 0px 60px 30px red;
+
+}
+.marvel span
+{
+    position: absolute;
+    display: block;
+}
+.marvel span:nth-child(1)
+{
+    top:0;
+    height: 5px;
+    width: 100%;
+    left: -100%;
+    background: linear-gradient(90deg, transparent, red);
+    animation: animes1 2s linear infinite;
+    animation-delay: 0s;
+}
+@keyframes animes1
+{
+    0%
+    {
+        left: -100%;
+    }
+    50%,100%
+    {
+        left: 100%;
+    }
+}
+.marvel span:nth-child(2)
+{
+    top: -100%;
+    width: 5px;
+    height: 100%;
+    left: 98%;
+    background: linear-gradient(180deg, transparent, red);
+    animation: animes2 2s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animes2
+{
+    0%
+    {
+        top: -100%;
+    }
+    50%,100%
+    {
+        top:100%;
+    }
+}
+.marvel span:nth-child(3)
+{
+    bottom:0;
+    right:-100%;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(270deg, transparent, red);
+    animation: animes3 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animes3
+{
+    0%
+    {
+        right: -100%;
+    }
+    50%,100%
+    {
+        right: 100%;
+    }
+}
+.marvel span:nth-child(4)
+{
+    left: 0%;
+    bottom: -100%;
+    height: 100%;
+    width: 5px;
+    background: linear-gradient(360deg, transparent, red);
+    animation: animes4 2s linear infinite;
+    animation-delay: 1.5s;
+}
+@keyframes animes4
+{
+    0%
+    {
+        bottom: -100%;
+    }
+    50%, 100%
+    {
+        bottom: 100%;
+    }
+}
+#marvel-t
+{
+    position: relative;
+    display: flex;
+    font-size: 50px;
+    left: 16px;
+    top:25px;
+    color: yellow;
+}
+.dc
+{
+    position: relative;
+    display: flex;
+    top:180px;
+    left: 100px;
+    height: 250px;
+    width: 250px;
+    background-color:yellow;
+    overflow: hidden;
+    -webkit-box-reflect: below 3px linear-gradient(transparent, #0004);
+
+} 
+.dc:hover
+{
+    background-color: red;
+    box-shadow: 0px 0px 60px 30px red;
+
+}
+.dc span
+{
+    position: absolute;
+    display: block;
+}
+.dc span:nth-child(1)
+{
+    top:0;
+    height: 5px;
+    width: 100%;
+    left: -100%;
+    background: linear-gradient(90deg, transparent, red);
+    animation: animesa 2s linear infinite;
+    animation-delay: 0s;
+}
+@keyframes animesa
+{
+    0%
+    {
+        left: -100%;
+    }
+    50%,100%
+    {
+        left: 100%;
+    }
+}
+.dc span:nth-child(2)
+{
+    top: -100%;
+    width: 5px;
+    height: 100%;
+    left: 98%;
+    background: linear-gradient(180deg, transparent, red);
+    animation: animesb 2s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animesb
+{
+    0%
+    {
+        top: -100%;
+    }
+    50%,100%
+    {
+        top:100%;
+    }
+}
+.dc span:nth-child(3)
+{
+    bottom:0;
+    right:-100%;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(270deg, transparent, red);
+    animation: animesc 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animesc
+{
+    0%
+    {
+        right: -100%;
+    }
+    50%,100%
+    {
+        right: 100%;
+    }
+}
+.dc span:nth-child(4)
+{
+    left: 0%;
+    bottom: -100%;
+    height: 100%;
+    width: 5px;
+    background: linear-gradient(360deg, transparent, red);
+    animation: animesd 2s linear infinite;
+    animation-delay: 1.5s;
+}
+@keyframes animesd
+{
+    0%
+    {
+        bottom: -100%;
+    }
+    50%, 100%
+    {
+        bottom: 100%;
+    }
+}
+#dc-t
+{
+    
+    position: relative;
+    display: flex;
+    font-size: 50px;
+    left: 32%;
+    top:15px;
+    color: yellow;
+}
+
+
